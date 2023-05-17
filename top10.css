@@ -1,0 +1,9 @@
+body{
+    background-color: #532a7f;
+    color: white;
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+    font-family:  "Archivo", sans-serif;
+}
