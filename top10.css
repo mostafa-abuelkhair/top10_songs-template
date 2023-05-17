@@ -1,9 +1,68 @@
+/**{border: solid;}*/
+
+:root{
+--bgcolor:#532a7f;
+--width:40%;
+--mwidth:450px;
+}
 body{
-    background-color: #532a7f;
+    background-color: var(--bgcolor);
     color: white;
+    text-align: center;
+    margin: 0;
 }
 header{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 130px;
     font-family:  "Archivo", sans-serif;
 }
+
+p{
+    width: var(--width);
+    min-width: var(--mwidth);
+    margin: auto;
+    padding: 0px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 30px;
+    
+    
+}
+button{
+ margin-top: 50px;
+ font-size: large;
+ width: 120px;
+ height: 50px;
+ color: var(--bgcolor);
+ cursor: pointer;
+
+}
+
+.songs{
+    width: var(--width);
+    min-width: var(--mwidth);
+    border: solid;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.songs div{
+    display: inline-block;
+    width: 49%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.songs div span:first-child{
+    display: inline-block;
+    background-color:blueviolet;
+    margin: 10px;
+    padding: 10px;
+
+    
+}
+
